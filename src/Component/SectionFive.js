@@ -345,6 +345,7 @@ font-family: "Averta web"
             background: #FFFFFF;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
             border-radius: 20px;
+            display: ${props => (props.clicked ? 'visible' : 'none')};
             .json-text{
                 position: absolute;
                 width: 400px;
@@ -357,7 +358,7 @@ font-family: "Averta web"
                 text-align: left;
                 display: block;
                 color: #000000;
-                animation: flow-one 0s 8000ms forwards;
+                animation: flow-one 0s 7000ms forwards;
                 visibility: hidden;
                 @keyframes flow-one{
                     to { visibility: visible; }
