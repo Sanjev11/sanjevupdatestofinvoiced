@@ -357,9 +357,9 @@ font-family: "Averta web"
                 text-align: left;
                 display: block;
                 color: #000000;
-                animation: flow-seven 0s 6000ms forwards;
+                animation: flow-one 0s 8000ms forwards;
                 visibility: hidden;
-                @keyframes flow-seven{
+                @keyframes flow-one{
                     to { visibility: visible; }
                 }
             }
